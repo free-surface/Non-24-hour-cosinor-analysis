@@ -85,3 +85,16 @@ The peak timing within one cycle is given by:
 $$
 x_{\text{peak}} = \left( -\frac{\phi}{2\pi} \cdot T \right) \bmod T
 $$
+
+### 4. Example Workflow
+
+To run a complete example of the analysis, first load the functions defined in
+`cosinor_analysis.R` and then execute the demonstration script `cosinor_example.R`.
+.
+
+After loading the main script, the example script performs the full workflow automatically. It generates an irregularly sampled time series, fits the cosinor model with a free period, visualizes the observed data together with the fitted curve, and prints a summary of the estimated parameters.
+
+This example allows users to confirm that the implementation is working correctly and to understand how the estimation behaves when the true period deviates from a canonical value such as 24 hours.
+
+By examining the output, users can verify that the estimated period, amplitude, phase, and MESOR are close to the true values used in the simulation, and can also visually assess the quality of the fit through the plotted results.
+
