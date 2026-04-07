@@ -85,7 +85,7 @@ generate_timeseries <- function(n       = 500,
 #   y                Numeric vector of observed values (same length as x)
 #   T_range          Two-element numeric vector [T_min, T_max] defining the
 #                    search range for the period             (default c(20, 28))
-#   T_grid_step      Step size for the coarse grid search   (default 0.2)
+#   T_grid_step      Step size for the coarse grid search   (default 10/60)
 #   refine_half_width Half-width of the refinement interval around the coarse
 #                    optimum                                 (default 0.5)
 #   tol              Convergence tolerance for optimize()   (default 1e-5)
