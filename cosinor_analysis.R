@@ -108,7 +108,7 @@ generate_timeseries <- function(n       = 500,
 fit_cosinor_free_period <- function(x,
                                     y,
                                     T_range          = c(20, 28),
-                                    T_grid_step      = 0.2,
+                                    T_grid_step      = 10/60,
                                     refine_half_width = 0.5,
                                     tol              = 1e-5) {
 
