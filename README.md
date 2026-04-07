@@ -57,7 +57,7 @@ $$
 
 and parameters are estimated using ordinary least squares.
 
-The amplitude and phase are recovered as:
+The amplitude and phase in the cosinor model are recovered as:
 
 $$
 A = \sqrt{\beta_1^2 + \beta_2^2}
